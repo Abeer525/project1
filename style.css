@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family:'Roboto', sans-serif;
+}
+body{
+    background-color: #2b2828;
+}
+/* Nav-Bar */
+.nav-bar{
+   display: flex;
+   position: sticky;
+   width: 100%;
+   background-color: #222;
+} 
+
+.nav-header{
+    display: flex;
+    align-items: center;
+    margin:0 5rem 0 20rem;
+}
+
+.logo {
+    width:3rem;
+    height: 3rem;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo p{
+    color: #fdae04;
+    font-size: 2rem;
+}
+
+ .header {
+    color: #fff;
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+
+ span{
+    color:#fdae04;
+    font-size: 2rem;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.list{
+    justify-content: space-evenly;
+    font-size: .5rem;
+    list-style-type:none;
+    padding: 2rem;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.phone-number{
+    display: flex;
+    font-size: .5rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+   
+}
+.number{
+    color: #fdae04;
+}
+.phone{
+    padding: 1rem;
+ }
+ .active{
+    color: #fdae04;
+}
+
+/* body */
+.container{
+    display: flex;
+    width: 100%;
+    margin: 1rem 5rem 1rem 15rem;
+}
+.part-one{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10rem;
+    
+}
+.title-one{
+    color:#fdae04;
+    margin: 1rem;
+
+}
+.name{
+    color:#fff;
+    font-size: 9rem;
+}
+.major{
+    color:#fff;
+}
+.button{
+    border: none;
+    width: 5rem;
+    padding: .5rem;
+    color:#222;
+    background-color: #fdae04;
+    border-radius: 10px;
+     margin-top: 1rem; 
+    align-items: center;
+    justify-content: center;
+}
+.part-two{
+    width: 40%;
+    
+}
+.part-two img{
+    margin: 1rem;
+    width: 80%;
+    height:85%;
+}
